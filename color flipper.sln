@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "color flipper.Android", "color flipper.Android\color flipper.Android.csproj", "{EB0AB7F3-FF61-4528-B92D-5AA04620B85F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "color flipper", "color flipper\color flipper.csproj", "{3D0AC697-D7EA-4F2B-A8E5-0AB3522597CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB0AB7F3-FF61-4528-B92D-5AA04620B85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB0AB7F3-FF61-4528-B92D-5AA04620B85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB0AB7F3-FF61-4528-B92D-5AA04620B85F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EB0AB7F3-FF61-4528-B92D-5AA04620B85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB0AB7F3-FF61-4528-B92D-5AA04620B85F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB0AB7F3-FF61-4528-B92D-5AA04620B85F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{3D0AC697-D7EA-4F2B-A8E5-0AB3522597CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0AC697-D7EA-4F2B-A8E5-0AB3522597CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0AC697-D7EA-4F2B-A8E5-0AB3522597CC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3D0AC697-D7EA-4F2B-A8E5-0AB3522597CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0AC697-D7EA-4F2B-A8E5-0AB3522597CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D0AC697-D7EA-4F2B-A8E5-0AB3522597CC}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7299EDAA-E4E8-42FF-9203-EFC6484FD5E4}
+	EndGlobalSection
+EndGlobal

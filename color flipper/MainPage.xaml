@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="color_flipper.MainPage">
+
+    <StackLayout>
+
+        <Frame>
+            <Label 
+                x:Name="frametext"
+                Text="Color Flipper" 
+                HorizontalTextAlignment="Center" 
+                TextColor="SkyBlue" 
+                FontSize="36"/>
+        </Frame>
+
+        <StackLayout 
+            x:Name="backdrop"
+            BackgroundColor="Beige" 
+            VerticalOptions="FillAndExpand"
+            Orientation="Vertical">
+                
+            <Label x:Name="colorname"                        
+                   HorizontalOptions="End"/>
+                
+            <Button x:Name="btn"
+                    Text="Click me!" 
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    VerticalOptions="CenterAndExpand" 
+                    HorizontalOptions="CenterAndExpand"
+                    CornerRadius="10" 
+                    BorderColor="Black"
+                    BorderWidth="2"
+                    FontSize="Medium"                    
+                    BackgroundColor="Black"                    
+                    Clicked="Button_Clicked"/>
+        </StackLayout>
+
+    </StackLayout>
+
+</ContentPage>
